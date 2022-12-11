@@ -11,6 +11,7 @@ body {
 
 
 #title {
+  display: block;
   text-align: center;
   font-weight: 600;
   font-size: 40px;
@@ -58,4 +59,33 @@ h2 {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.8)
 
+}
+
+ul {
+  display: block
+  font-size: 18px;
+  position: relative;
+  left: 19%;
+}
+
+q{
+  display: block;
+  font-size: 15px;
+  margin-top: 3em;
+  margin-right: 15em;
+  margin-left: 15em;
+  line-height: 25px;
+}
+
+cite {
+  display: block;
+  font-size: 15px;
+  margin-top: 1em;
+  margin-right: 15em;
+  margin-left: 15em;
+}
+
+.ending {
+  font-size: 18px;
+  font-weight: 900;
 }
